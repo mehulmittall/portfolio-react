@@ -15,9 +15,9 @@ const Navbar = () => {
   const [nav , setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#050c17] text-gray-300 shadow-md shadow-[#1c2836]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-gray-300 shadow-md bg-[#050c17] shadow-[#1c2836]'>
     <div>
-      <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
+      <img src={Logo} alt='Logo' style={{ width: '50px' }} />
     </div>
    {/* Menu */}
       <ul className='hidden md:flex'>
