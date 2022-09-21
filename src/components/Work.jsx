@@ -102,7 +102,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
-                <p>Simon Game</p>
+                <p>Food App</p>
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mehulmittall.github.io/food-react/'>
